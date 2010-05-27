@@ -1,0 +1,66 @@
+
+História: Criando um triângulo
+
+Sendo um usuário do site
+quero informar valores de 3 retas (A, B, C)
+Pois assim saberei se é possível montar um triângulo
+
+Aceitação:
+
+OK !!!Dado que sou um usuário do site de verificação de triângulos
+Quando informo retas de valor nulo
+Então o sistema apresenta que estes parâmetros são inválidos 
+
+OK!!! Dado que sou um usuário do site de verificação de triângulos
+Quando informo retas de valor 0 
+Então o sistema apresenta que estes parâmetros são inválidos 
+
+Dado que sou um usuário do site de verificação de triângulos
+Quando informo retas de valor A, B, C (strings) 
+Então o sistema apresenta que estes parâmetros são inválidos
+
+OK!!! Dado que sou um usuário do site de verificação de triângulos
+Quando informo retas algum valor negativo 
+Então o sistema apresenta que estes parâmetros são inválidos  
+
+OK!!! Dado que sou um usuário do site
+Quando informo 2 para a reta A
+       e 3 para a reta B
+       e 5 para a reta C
+Então o sistema mostra que é um triângulo inválido
+
+OK!!!Dado que sou um usuário do site
+Quando informo 3 para a reta A
+       e 5 para a reta B
+       e 2 para a reta C
+Então o sistema mostra que é um triângulo inválido
+
+OK!!!!Dado que sou um usuário do site
+Quando informo 5 para a reta A
+       e 3 para a reta B
+       e 2 para a reta C
+Então o sistema mostra que é um triângulo inválido
+
+OK!!! Dado que sou um usuário do site
+Quando informo 3 para a reta A
+       e 3 para a reta B
+       e 3 para a reta C
+Então o sistema mostra que é um triângulo válido e é um triângulo equilátero
+
+OK!!!Dado que sou um usuário do site
+Quando informo 3 para a reta A
+       e 6 para a reta B
+       e 5 para a reta C
+Então o sistema mostra que é um triângulo válido e é um triângulo escaleno
+
+OK!!!Dado que sou um usuário do site
+Quando informo 4 para a reta A
+       e 4 para a reta B
+       e 2 para a reta C
+Então o sistema mostra que é um triângulo válido e é um triângulo isóceles
+
+Dado que sou um usuário do site
+Quando informo 5 para a reta A
+       e 4 para a reta B
+       e 3 para a reta C
+Então o sistema mostra que é um triângulo válido, é um triângulo escaleno e é um triângulo pitagórico (reto)
