@@ -1,10 +1,6 @@
 No plano, triângulo (também aceito como trilátero) é a figura geométrica que ocupa o espaço interno limitado por três linhas retas que concorrem, duas a duas, em três pontos diferentes formando três lados e três ângulos internos que somam 180°. Também se pode definir um triângulo em superfícies gerais. Nesse casos, são chamados de triângulos geodésicos e têm propriedades diferentes. Também podemos dizer que o triângulo é a união de três pontos não-colineares (pertencente a um plano, em decorrência da definição dos mesmos), por três segmentos de reta.
 
-
-
 Condição de existência de um triângulo
-
-
 
 Para que se possa construir um triângulo é necessário que a medida de qualquer um dos lados seja menor que a soma das medidas dos outros dois e maior que o valor absoluto da diferença entre essas medidas.
 
